@@ -1,0 +1,37 @@
+/*element selector*/
+div{
+background-color: red;
+}
+/*Id selector*/
+#ok{
+    background-color: yellow;
+}
+
+/*Child selector*/
+
+div>h4{
+    background-color: green;
+    color: red;
+}
+/* Decendent selector*/
+div p{
+
+    background-color: blue;
+    color: yellow;
+}
+/* Child means direct sibling like son and decendent means indirect like grandson etc*/
+/* universal selector*/
+
+*p{
+    color :green;
+}
+/* control + /  adds comments */
+
+/* pseudo selectors */
+
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: red;
+}
