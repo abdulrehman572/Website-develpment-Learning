@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+/* in early times centering a div was a headache for developers so in cs3 flexbox was introduced so that it will be easy */
+.box{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border: 1px solid white;
+}
+/* to use flexbox properties we need to use display flex which auto aligns in horizontal
+direction */
+.container{
+    display: flex;
+       /* now for aligning in center  */
+  
+       /* justify-content: center;
+        */
+       /* we need to give container some height so that it can be vertically center */
+       height: 80vh;
+    /* for vertical center we will use align items center property */
+    /* align-items: center; */
+    /* you can use more properties like flex-start,flex-end ,baseline etc*/
+    /* align-items: flex-end; */
+/* align-items: end; */
+
+       /* you have to understand one thing about flexbox that items are not laid in left to right they are laid in flex direction */
+    /* flex-direction: column; */
+/* flex-direction: column-reverse; */
+
+/* the main axis is one in which direction boxes are when we apply display flex in row or horizontal direction    the vertical line is called cross axis    the main,cross axis can be changed by using flex direction property     the justify content and aligb items property work acording to main axis*/
+
+/* if there are numerous number of boxes and are causing overflow then we use wrap */
+/* flex-wrap: wrap; */
+
+/* if we have more then one lines we use align content we use align items if there is one line */
+/* align-content: center; */
+/* you can use center,flex start or end they will be centered */
+/* flex  flow is used to set wrap,direction at a time*/
+/* flex-flow: row wrap;  */
+flex-wrap: wrap;
+/* is used to give space between items*/
+gap: 30px;
+
+
+}
+.order1{
+    order:2
+    
+}
+
+.order2{
+    order:3
+}
+.order3{
+    order:1 
+    
+}
+.order2{
+    align-self: flex-start;
+}
+/* 
+.order1{
+    flex-grow: 2;
+} */
+/* flex grow is 0 by default  grow means space means if box1 has grow 2 it will take place of two boxes */
+
+/* flex  shrink is abililty of items to shrink if necessary*/
+.order1{
+    /* flex-shrink: 2; */
+}
+
+</style>
+    
+    <title>Flexbox</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="box box2  order2">2</div>
+    <div class="box box3  order1">3</div>
+    <div class="box box4  order3">4</div>
+     <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    -->
+</div>    
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+}
+.box{
+
+background-color:white;
+height: 450px;
+width: 300px;
+position: relative;
+left: 40px;
+border-radius: 10px;
+
+
+}
+img{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 34%;
+    width: fit-content;
+    border: 0px solid ;
+    border-radius: 9px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin: px;
+    position: relative;
+    top: 10px;
+    padding: 7px;
+    border: 1px  burlywood solid;
+    border-radius: 10px;
+}
+h1{
+    position: relative;
+
+left: 10px;
+}
+p{
+   padding: 10px;
+    overflow: auto;
+}
+
+button{
+    border-radius: 9px;
+    margin-left: 95px;
+}
